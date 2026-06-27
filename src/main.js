@@ -4,7 +4,7 @@ import "swiper/css";
 
 const swiper = new Swiper(".swiper", {
   modules: [Autoplay],
-  slidesPerView: 4,
+  slidesPerView: 2,
   spaceBetween: 40,
   autoplay: {
     delay: 2000,
