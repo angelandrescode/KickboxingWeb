@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kickboxing el Templo</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="shortcut icon" href="ElTemploLogo.jpg" type="image/x-icon" />
+  </head>
+  <body
+    class="bg-bg text-title font-sans min-h-screen px-6 md:px-16 py-8 flex flex-col justify-between max-w-7xl mx-auto"
+  >
+    <!-- NAVBAR -->
+    <header class="flex justify-between items-center w-full mb-12 md:mb-16">
+      <!-- Brand / Logo -->
+      <div class="flex items-center gap-3">
+        <div
+          class="w-8 h-8 bg-neutral-900 rounded flex items-center justify-center"
+        >
+          <img src="ElTemploLogo.jpg" alt="logo-kickboxingeltemplo" />
+        </div>
+        <span class="font-bold text-sm tracking-wide uppercase"
+          >Kickboxing El Templo</span
+        >
+      </div>
+
+      <!-- Badge derecho -->
+      <div
+        class="border text-center border-muted bg-neutral-900/50 px-4 py-2 rounded-full text-[10px] md:text-xs font-medium tracking-widest uppercase text-muted-dark"
+      >
+        Academia de Kickboxing Profesional
+      </div>
+    </header>
+
+    <main class="flex flex-col gap-40 py-15 md:py-50 md:gap-60">
+      <!-- HERO CONTENT -->
+      <section>
+        <div
+          class="flex flex-col items-center text-center max-w-4xl mx-auto px-4"
+        >
+          <!-- Tagline con líneas de acento -->
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-8 h-[2px] bg-accent sm:block"></span>
+            <p
+              class="text-accent text-[11px] md:text-xs tracking-[0.25em] font-black uppercase"
+            >
+              Disciplina • Técnica • Respeto
+            </p>
+            <span class="w-8 h-[2px] bg-accent sm:block"></span>
+          </div>
+
+          <!-- Título Principal -->
+          <h1
+            class="text-7xl w-max min-[1138px]:text-8xl max-[900px]:text-6xl max-[723px]:text-5xl max-[590px]:hidden font-black tracking-tighter uppercase leading-[0.95] mb-8 text-title"
+          >
+            Entrena con precisión.<br />
+            Lucha con control.
+          </h1>
+          <h1
+            class="block min-[590px]:hidden text-5xl font-black tracking-tighter uppercase leading-[0.95] mb-8 text-title"
+          >
+            Entrena <br />
+            Con los mejores
+          </h1>
+
+          <!-- Descripción -->
+          <p
+            class="text-subtitle text-sm md:text-base font-normal max-w-2xl leading-relaxed mb-8"
+          >
+            Una academia de alto nivel dedicada al entrenamiento específico de
+            kickboxing —desde jóvenes deportistas hasta competidores cadetes de
+            alto nivel—, basada en una técnica impecable y una intensidad
+            serena.
+          </p>
+
+          <!-- Botón Inscríbete -->
+          <a
+            href="#"
+            class="inline-flex items-center gap-2.5 bg-accent hover:opacity-90 text-title px-8 py-4 rounded-full text-sm font-bold uppercase tracking-wider transition-opacity duration-200 shadow-lg shadow-red-600/10"
+          >
+            <span>Inscríbete</span>
+            <svg
+              class="w-4 h-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" height="18" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+          </a>
+        </div>
+
+        <!-- TARJETA INFERIOR (FEATURES) -->
+        <div
+          class="w-full bg-card-blend border border-muted rounded-[24px] mt-16 p-1"
+        >
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-muted text-center py-6"
+          >
+            <!-- Bloque 1 -->
+            <div class="px-6 py-4 md:py-2 flex flex-col justify-center gap-1">
+              <h3
+                class="text-xl md:text-2xl font-black uppercase tracking-tight text-title"
+              >
+                Richard Huerta
+              </h3>
+              <p class="text-subtitle text-xs font-medium">
+                Clases con Richard Huerta
+              </p>
+            </div>
+
+            <!-- Bloque 2 (Destacado con la clase text-accent) -->
+            <div class="px-6 py-4 md:py-2 flex flex-col justify-center gap-1">
+              <h3
+                class="text-xl md:text-2xl font-black uppercase tracking-tight text-accent"
+              >
+                Top 12 España
+              </h3>
+              <p class="text-subtitle text-xs font-medium max-w-60 mx-auto">
+                Top 12 de España que participaron en el Open de Laredo
+              </p>
+            </div>
+
+            <!-- Bloque 3 -->
+            <div class="px-6 py-4 md:py-2 flex flex-col justify-center gap-1">
+              <h3
+                class="text-xl md:text-2xl font-black uppercase tracking-tight text-title"
+              >
+                Junior + Cadete
+              </h3>
+              <p class="text-subtitle text-xs font-medium">
+                Programas para junior y cadetes
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOGROS -->
+      <section class="w-full flex flex-col items-center">
+        <div class="text-center max-w-3xl mb-14 flex flex-col items-center">
+          <!-- Tagline -->
+          <div class="flex items-center gap-4 mb-5">
+            <span class="w-6 h-[2px] bg-accent"></span>
+            <p
+              class="text-accent text-[11px] md:text-xs tracking-[0.25em] font-black uppercase"
+            >
+              Logros
+            </p>
+            <span class="w-6 h-[2px] bg-accent"></span>
+          </div>
+
+          <!-- Título -->
+          <h2
+            class="text-4xl text-title md:text-5xl md:w-max lg:text-6xl font-black tracking-tighter uppercase leading-[1.05] mb-6"
+          >
+            Estándar construido por<br />experiencia, no ruido
+          </h2>
+
+          <!-- Descripción -->
+          <p
+            class="text-subtitle text-sm md:text-base font-light leading-relaxed max-w-2xl"
+          >
+            Entrenamiento específico para deportistas que buscan una técnica
+            impecable, un progreso gradual y un entrenamiento orientado a la
+            competición.
+          </p>
+        </div>
+
+        <!-- TARJETAS DE LOGROS (GRID DOS COLUMNAS) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+          <!-- Tarjeta 1: Clases con Richard Huerta -->
+          <article
+            class="bg-linear-to-br from-neutral-900/60 to-neutral-950/20 border border-neutral-900 rounded-[28px] p-8 md:p-10 flex flex-col justify-between min-h-[280px] shadow-xl relative group overflow-hidden"
+          >
+            <!-- Icono superior (Medalla/Cinta) -->
+            <div class="text-accent mb-6">
+              <svg
+                class="w-8 h-8"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.47 14L19 22l-7-3-7 3 3.53-8"></path>
+              </svg>
+            </div>
+            <!-- Textos -->
+            <div>
+              <h3
+                class="text-2xl md:text-3xl font-black uppercase tracking-tight mb-4"
+              >
+                Clases con Richard Huerta
+              </h3>
+              <p
+                class="text-subtitle text-sm font-light leading-relaxed max-w-md"
+              >
+                Sesiones técnicas de élite diseñadas según los estándares de la
+                competición europea, impartidas con claridad, disciplina y
+                atención a los fundamentos.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2: Top 12 Open de Laredo (Con Borde de Acento Sutil) -->
+          <article
+            class="bg-gradient-to-br from-accent/15 to-neutral-950/20 border border-red-950/40 rounded-[28px] p-8 md:p-10 flex flex-col justify-between min-h-[280px] shadow-xl relative overflow-hidden"
+          >
+            <!-- Número "12" Gigante de Fondo Decorativo -->
+            <span
+              class="absolute right-6 top-6 text-accent/90 text-7xl md:text-8xl font-black tracking-tighter pointer-events-none select-none"
+            >
+              12
+            </span>
+
+            <!-- Icono superior (Corona) -->
+            <div class="text-accent mb-6">
+              <svg
+                class="w-8 h-8"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7z"></path>
+                <path d="M3 20h18"></path>
+              </svg>
+            </div>
+            <!-- Textos -->
+            <div class="relative z-10">
+              <h3
+                class="text-2xl md:text-3xl font-black uppercase tracking-tight mb-4 max-w-[80%]"
+              >
+                Top 12 en el Open de Laredo
+              </h3>
+              <p
+                class="text-subtitle text-sm font-light leading-relaxed max-w-sm"
+              >
+                Un punto de referencia competitivo que hace que cada clase
+                brille por su efectividad.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- COMPAÑERISMO -->
+      <section class="w-full">
+        <div class="max-w-3xl mb-12">
+          <p
+            class="text-accent text-xs tracking-[0.2em] font-black uppercase mb-4"
+          >
+            Conócenos
+          </p>
+          <h2
+            class="text-4xl md:text-5xl md:w-max lg:text-6xl font-black tracking-tighter uppercase leading-[1.05]"
+          >
+            El ambiente y compañerismo <br />
+            al mismo nivel que la enseñanza
+          </h2>
+        </div>
+        <div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="FOTO1.jpg"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO2.webp"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO3.webp"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO4.webp"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO5.webp"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO6.jpg"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="FOTO7.jpg"
+                  alt="team-photo"
+                  class="object-cover h-[350px] w-[250px] rounded-2xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROGRAMAS -->
+      <section class="w-full">
+        <div class="max-w-3xl mb-12">
+          <p
+            class="text-accent text-xs tracking-[0.2em] font-black uppercase mb-4"
+          >
+            Programas
+          </p>
+          <h2
+            class="text-4xl md:text-5xl md:w-max lg:text-6xl font-black tracking-tighter uppercase leading-[1.05]"
+          >
+            Clases adaptadas a cada<br />edad para un progreso real.
+          </h2>
+        </div>
+
+        <!-- CONTENEDOR DE TARJETAS (GRID DE 2 COLUMNAS) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+          <!-- Tarjeta 1: Infantil -->
+          <article
+            class="bg-linear-to-br from-neutral-900/60 to-neutral-950/20 border border-neutral-900 rounded-[28px] p-8 md:p-10 flex flex-col justify-between min-h-[380px] shadow-xl relative"
+          >
+            <div>
+              <!-- Encabezado de la Tarjeta (Icono + Edad) -->
+              <div class="flex justify-between items-start mb-8">
+                <div class="text-accent">
+                  <!-- Icono de grupo/niños en SVG -->
+                  <svg
+                    class="w-8 h-8"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <span
+                  class="text-accent text-[11px] font-black tracking-widest uppercase"
+                >
+                  8 - 9 Años
+                </span>
+              </div>
+
+              <!-- Título y Descripción -->
+              <h3 class="text-3xl font-black uppercase tracking-tight mb-4">
+                Infantil
+              </h3>
+              <p class="text-subtitle text-sm font-light leading-relaxed mb-6">
+                Una iniciación estructurada al kickboxing: coordinación,
+                equilibrio, respeto, juego de pies y fundamentos básicos de
+                seguridad, impartidos en un entorno de trabajo intensivo.
+              </p>
+            </div>
+
+            <!-- Listado de viñetas inferior -->
+            <ul class="space-y-2 text-neutral-200 text-sm font-light">
+              <li class="flex items-center gap-2">
+                <span class="text-accent">•</span> Fundamentos basados en la
+                técnica
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-accent">•</span> Obtener confianza y seguridad
+              </li>
+            </ul>
+          </article>
+          <!-- Tarjeta 2: Cadete -->
+          <article
+            class="bg-gradient-to-br from-accent/20 to-neutral-950/20 border border-red-950/40 rounded-[28px] p-8 md:p-10 flex flex-col justify-between min-h-[380px] shadow-xl relative"
+          >
+            <div>
+              <!-- Encabezado de la Tarjeta (Icono + Edad) -->
+              <div class="flex justify-between items-start mb-8">
+                <div class="text-accent">
+                  <!-- Icono de escudo en SVG -->
+                  <svg
+                    class="w-8 h-8"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
+                    ></path>
+                  </svg>
+                </div>
+                <span
+                  class="text-title text-[11px] font-black tracking-widest uppercase opacity-90"
+                >
+                  10 - 15 Años
+                </span>
+              </div>
+
+              <!-- Título y Descripción -->
+              <h3 class="text-3xl font-black uppercase tracking-tight mb-4">
+                Cadete
+              </h3>
+              <p class="text-subtitle text-sm font-light leading-relaxed mb-6">
+                Un programa más exigente para deportistas en formación:
+                combinaciones tácticas, percepción del ring, preparación física
+                y control para la competición.
+              </p>
+            </div>
+
+            <!-- Listado de viñetas inferior -->
+            <ul class="space-y-2 text-neutral-200 text-sm font-light">
+              <li class="flex items-center gap-2">
+                <span class="text-accent">•</span> Ejercicios tácticos y defensa
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-accent">•</span> Sesiones de intensidad
+                controlada
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="w-full flex flex-col gap-12">
+        <div
+          class="bg-linear-to-br from-neutral-900/60 to-neutral-950/20 border border-neutral-900 rounded-[32px] p-8 md:p-12 lg:p-14 flex flex-col lg:flex-row lg:items-center justify-between gap-8 shadow-2xl relative overflow-hidden"
+        >
+          <!-- Destello sutil de acento en la esquina superior izquierda -->
+          <div
+            class="absolute top-0 left-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl pointer-events-none"
+          ></div>
+
+          <!-- Bloque de Texto -->
+          <div class="max-w-2xl relative z-10">
+            <p
+              class="text-accent text-[11px] md:text-xs tracking-[0.25em] font-black uppercase mb-4"
+            >
+              Inicia tu camino
+            </p>
+            <h2
+              class="text-4xl md:text-5xl font-black uppercase tracking-tighter leading-tight mb-4"
+            >
+              Inscríbete AHORA
+            </h2>
+            <p
+              class="text-subtitle text-sm md:text-base font-light leading-relaxed"
+            >
+              Dinos qué programa te interesa y empieza a entrenar con los
+              mejores.
+            </p>
+          </div>
+
+          <!-- Columna de Acción y Datos de Contacto -->
+          <div
+            class="flex flex-col items-start lg:items-end gap-6 flex-shrink-0 relative z-10"
+          >
+            <!-- Botón Inscríbete -->
+            <a
+              href="#"
+              class="inline-flex items-center gap-2.5 bg-accent hover:opacity-90 text-title px-8 py-3.5 rounded-full text-sm font-bold uppercase tracking-wider transition-opacity duration-200 shadow-lg shadow-red-600/20"
+            >
+              <span>Inscríbete</span>
+              <svg
+                class="w-4 h-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </a>
+
+            <!-- Info de Contacto Derecha -->
+            <div
+              class="flex flex-col items-start lg:items-end gap-2 text-xs text-subtitle font-light tracking-wide"
+            >
+              <!-- Email -->
+              <a
+                href="mailto:eltemplokickboxing@gmail.com"
+                class="flex items-center gap-2 hover:text-title transition-colors"
+              >
+                <svg
+                  class="w-4 h-4 text-subtitle opacity-70"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                eltemplokickboxing@gmail.com
+              </a>
+              <!-- Dirección -->
+              <div class="flex items-center gap-2 text-left lg:text-right">
+                <svg
+                  class="w-4 h-4 text-subtitle opacity-70 flex-shrink-0"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                  ></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span
+                  >C/ La Pinilla, 18 Carbajosa de la sagrada 37188
+                  Salamanca</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER FINAL TRIPLE -->
+        <footer
+          class="border-t border-neutral-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[11px] tracking-widest text-neutral-500 font-bold uppercase"
+        >
+          <!-- Izquierda: Marca -->
+          <div>Kickboxing El Templo</div>
+
+          <!-- Centro: Logo Icono Minimalista -->
+          <div
+            class="w-7 h-7 opacity-40 grayscale flex items-center justify-center"
+          >
+            <img src="ElTemploLogo.jpg" alt="logo-kickboxingeltemplo" />
+          </div>
+
+          <!-- Derecha: Copyright -->
+          <div>© 2026</div>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
